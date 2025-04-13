@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Introduction": {
+    "title": "你好 世界!",
+    "description": "This is a simple example of a multilingual application using i18next."
+  }
+}

@@ -1,0 +1,25 @@
+const images = {
+  hero: '/assets/images/herobg.jpeg',
+  introductionImg: '/assets/images/introduction-img.jpeg',
+  authorizationImg: '/assets/images/authorization.jpeg',
+  tshirtImg: '/assets/images/lineage-tshirt.jpeg',
+  lineageSifuDennisLee: '/assets/images/sifu-DennisLee1.jpg',
+  lineageSifuDennisLee2: '/assets/images/sifu-DennisLee2.jpg',
+  lineageSifuAndyChia: '/assets/images/sifu-AndyChia1.jpg',
+  lineageSifuAndyChia2: '/assets/images/sifu-AndyChia2.jpg',
+  lineageSifuAndyChia3: '/assets/images/sifu-AndyChia3.jpg',
+  lineageSifuAndyChia4: '/assets/images/sifu-AndyChia4.jpg',
+  lineageSifuAndyChia4a: '/assets/images/sifu-AndyChia4a.png',
+  lineageSifuAndyChia5: '/assets/images/sifu-AndyChia5.jpg',
+  lineageSifuAndyChia6: '/assets/images/sifu-AndyChia6.jpg',
+  lineageSifuAndyChia7: '/assets/images/sifu-AndyChia7.jpg',
+  lineageSifuAndyChia8: '/assets/images/sifu-AndyChia8.jpg',
+  lineageSifuAndyChia9: '/assets/images/sifu-AndyChia9.jpg',
+  tshirtYellow: '/assets/images/tshirt-yellow.jpg',
+  tshirtGreen: '/assets/images/tshirt-green.jpg',
+  tshirtBlue: '/assets/images/tshirt-blue.jpg',
+  tshirtBlack: '/assets/images/tshirt-black.jpg',
+  dlvtMember: '/assets/images/dlvt-members.png',
+};
+
+export default images;
