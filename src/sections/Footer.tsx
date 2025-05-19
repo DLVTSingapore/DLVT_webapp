@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-row gap-2">
               {socialMedia.map((social, idx) => (
-                <Link key={idx} href={social.href}>
+                <Link key={idx} href={social.href} target="_blank">
                   <social.src />
                 </Link>
               ))}

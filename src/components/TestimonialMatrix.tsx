@@ -115,9 +115,9 @@ const TestimonialMatrix = () => {
                   />
                 ) : (
                   <div className="p-4 text-center">
-                    <p className="font-body text-lg text-gray-700">
+                    <blockquote className="border-primary-500 mt-4 border-l-4 pl-4 text-lg text-gray-700 italic">
                       {(cell.content as Writing).text}
-                    </p>
+                    </blockquote>
                     <div className="mt-4">
                       {/* <div className="mx-auto h-12 w-12">
                         <Image

@@ -1,5 +1,5 @@
 import images from '../../public/assets/images';
-import { BsInstagram, BsTiktok, BsFacebook, BsWhatsapp } from 'react-icons/bs';
+import { BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
 
 type NavLinks = {
   href: string;
@@ -70,7 +70,8 @@ export const faqs: FAQ[] = [
   },
   {
     question: 'What are the training session times?',
-    answer: 'TBC',
+    answer:
+      'Wednesday and Friday 20:00-22:00 +08. Please check our schedule for updates.',
   },
   {
     question: 'What happens if I miss a class?',
@@ -199,14 +200,14 @@ export const socialMedia = [
     alt: 'whatsapp logo',
     href: 'https://api.whatsapp.com/send?phone=6592316638',
   },
-  {
-    src: BsTiktok,
-    alt: 'tiktok logo',
-    href: '#',
-  },
+  // {
+  //   src: BsTiktok,
+  //   alt: 'tiktok logo',
+  //   href: '#',
+  // },
   {
     src: BsFacebook,
     alt: 'facebook logo',
-    href: '#',
+    href: 'https://www.facebook.com/share/1AYy2JD87h/',
   },
 ];
