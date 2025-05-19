@@ -10,6 +10,11 @@ type FAQ = {
   question: string;
   answer: string;
 };
+type Branch = {
+  href: string;
+  src: string;
+  label: string;
+};
 
 type FooterLink = {
   title: string;
@@ -19,6 +24,7 @@ type FooterLink = {
 export const navLinks: NavLinks[] = [
   { href: '/our-lineage', label: 'Our Lineage' },
   { href: '/traditional-training', label: 'Traditional Training' },
+  { href: '/our-events', label: 'Our Events' },
   { href: '/gallery', label: 'Gallery' },
   { href: '/testimonial', label: 'Testimonial' },
   { href: '/contact-us', label: 'Contact Us' },
@@ -135,6 +141,29 @@ export const faqs: FAQ[] = [
     question: 'I have a question not listed here. How can I reach you?',
     answer:
       'Please contact Sifu Andy via WhatsApp at +65 9231 6638 or email dlvt2016sg@gmail.com, and we’ll be happy to assist.',
+  },
+];
+
+export const branches: Branch[] = [
+  {
+    href: 'http://www.dennisleevt.com/',
+    src: images.dlvtHongKong,
+    label: 'Hong Kong',
+  },
+  {
+    href: 'https://dennisleevtindo.com/',
+    src: images.dlvtJakarta,
+    label: 'Indonesia',
+  },
+  {
+    href: 'https://dennisleevtindo.com/',
+    src: images.dlvtItaly,
+    label: 'Italy',
+  },
+  {
+    href: 'https://www.ipmanwingchun.sg/',
+    src: images.dlvtSelegie,
+    label: 'Selegie SG',
   },
 ];
 

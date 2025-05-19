@@ -20,6 +20,12 @@ const images = {
   tshirtBlue: '/assets/images/tshirt-blue.jpg',
   tshirtBlack: '/assets/images/tshirt-black.jpg',
   dlvtMember: '/assets/images/dlvt-members.png',
+  dlvtHongKong: '/assets/images/dlvt_hongkong.jpg',
+  dlvtJakarta: '/assets/images/dlvt_jakarta.webp',
+  dlvtItaly: '/assets/images/dlvt_italy.png',
+  dlvtSelegie: '/assets/images/dlvt_selegie.jpeg',
+  chinatownTrainingLocation: '/assets/images/chinatown_training_location.jpg',
+  ourEvents1: '/assets/images/our-events1.jpg',
 };
 
 export default images;

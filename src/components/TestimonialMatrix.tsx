@@ -2,11 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 import images from '../../public/assets/images';
 
-// Define types for the matrix cells
 type Writing = {
   text: string;
   name: string;
-  profileImage: string; // Adjust type based on your `images` export (e.g., StaticImageData if using Next.js Image)
+  profileImage: string;
 };
 
 type CellContent = Writing | string;
@@ -16,31 +15,25 @@ type MatrixCell = {
   content: CellContent;
 };
 
-// Placeholder data (replace with your content)
 const writings: Writing[] = [
   {
-    text: 'Be the best version of you.',
-    name: 'Sean Lim',
+    text: 'Sifu is patient and creative when passing down his skills to his students: he uses daily life examples to explain abstract theories and make it easy to understand.',
+    name: 'Sze Wai',
     profileImage: images.lineageSifuAndyChia7,
   },
   {
-    text: 'Trust yourself.',
-    name: 'Emily Tan',
+    text: 'Sifu Andy has a real gift for explaining the deeper meaning behind each move—how energy flows, structure, and the traditional values behind Wing Chun. His patience and clarity have helped me appreciate Wing Chun on a much deeper level.',
+    name: 'Gladys',
     profileImage: images.lineageSifuAndyChia8, // Replace with a different image
   },
   {
-    text: "You won't know what your true potential is until you give it your best shot.",
-    name: 'Michael Wong',
+    text: 'Training in Wing Chun improved my focus, discipline, and physical fitness, while teaching me a deeper understanding of body mechanics.',
+    name: 'Benny',
     profileImage: images.lineageSifuAndyChia9, // Replace with a different image
   },
   {
-    text: "You don't succeed because you achieved a goal. You succeed because of the person you BECOME when achieving that goal.",
-    name: 'Sarah Lee',
-    profileImage: images.lineageSifuAndyChia9, // Replace with a different image
-  },
-  {
-    text: 'Embrace every challenge as an opportunity.',
-    name: 'James Chen',
+    text: 'Training Wing Chun with Sifu Andy has helped me appreciate the smaller details of life. Throughout my experience, I have become a much patient person with my own progress and learning.',
+    name: 'Andreas',
     profileImage: images.lineageSifuAndyChia9, // Replace with a different image
   },
   // Add more testimonials as needed
@@ -126,7 +119,7 @@ const TestimonialMatrix = () => {
                       {(cell.content as Writing).text}
                     </p>
                     <div className="mt-4">
-                      <div className="mx-auto h-12 w-12">
+                      {/* <div className="mx-auto h-12 w-12">
                         <Image
                           src={(cell.content as Writing).profileImage}
                           alt={`${(cell.content as Writing).name} Profile`}
@@ -134,7 +127,7 @@ const TestimonialMatrix = () => {
                           height={50}
                           className="h-full w-full rounded-full object-cover"
                         />
-                      </div>
+                      </div> */}
                       <p className="font-body mt-2 text-sm text-gray-500">
                         {(cell.content as Writing).name}
                       </p>

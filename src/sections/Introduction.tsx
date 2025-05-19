@@ -3,13 +3,13 @@
 import React from 'react';
 
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+// import { useTranslations } from 'next-intl';
 
 import logos from '../../public/assets/logos';
 import images from '../../public/assets/images';
 
 const Introduction = () => {
-  const t = useTranslations('Introduction');
+  // const t = useTranslations('Introduction');
   return (
     <section>
       <div className="flex flex-col items-center justify-center gap-4 px-16 py-4 md:px-48">
@@ -22,7 +22,7 @@ const Introduction = () => {
           priority
         />
         <h1 className="font-heading text-4xl font-bold">DLVT Singapore</h1>
-        <h1>{t('title')}</h1>
+        {/* <h1>{t('title')}</h1> */}
         <p className="font-body text-center">
           Dennis Lee Ving Tsun Martial Arts Association - Singapore (DLVT) is
           the only school in Singapore that is closely linked to the source of

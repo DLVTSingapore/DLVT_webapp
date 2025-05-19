@@ -13,7 +13,7 @@ const Gallery = () => {
     <section>
       <div className="mx-6 my-8 flex flex-col md:mx-8 lg:mx-40">
         <div className="flex flex-col items-start justify-start">
-          <h1 className="mb-4 text-3xl font-bold">Our Events</h1>
+          <h1 className="mb-4 text-3xl font-bold">Our Galleries</h1>
         </div>
         <div>
           <figure>
