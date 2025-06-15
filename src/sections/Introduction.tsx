@@ -40,8 +40,8 @@ const Introduction = () => {
         </p>
         <p className="text-center">
           The Singapore branch of Dennis Lee Ving Tsun Martial Arts Association
-          is helmed by Sifu Andy and Sifu Terrance who are certified
-          instructors.
+          is helmed by Sifu Andy and Sifu Terrance. All instructors in Singapore
+          branch are certified.
         </p>
         <Image
           src={images.introductionImg}
