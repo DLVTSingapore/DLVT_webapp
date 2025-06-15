@@ -14,6 +14,11 @@ const Footer = () => {
             <div>
               <h1 className="text-4xl font-bold">DLVT Singapore</h1>
             </div>
+            <div>
+              <h2 className="inline-block bg-yellow-300 px-2 py-1 text-lg font-bold text-black">
+                Find us on our social media
+              </h2>
+            </div>
             <div className="flex flex-row gap-2">
               {socialMedia.map((social, idx) => (
                 <Link key={idx} href={social.href} target="_blank">

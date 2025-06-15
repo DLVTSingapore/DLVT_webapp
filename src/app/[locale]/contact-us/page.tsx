@@ -62,6 +62,28 @@ const ContactUs = () => {
           {/* Title Section */}
           <div className="mb-8 text-center">
             <h1 className="font-heading text-3xl font-bold text-gray-800 md:text-4xl">
+              Registration Form
+            </h1>
+            <figure>
+              <blockquote className="border-primary-500 mt-4 border-l-4 pl-4 text-lg text-gray-700 italic">
+                <a
+                  href="https://linktr.ee/dennisleevtsingapore"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://linktr.ee/dennisleevtsingapore
+                </a>
+              </blockquote>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <hr className="mx-6 my-8 text-gray-700 md:mx-8 lg:mx-40" />
+      <section className="w-full bg-gray-50 py-12">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          {/* Title Section */}
+          <div className="mb-8 text-center">
+            <h1 className="font-heading text-3xl font-bold text-gray-800 md:text-4xl">
               Feel free to get in touch
             </h1>
           </div>

@@ -161,11 +161,11 @@ export const branches: Branch[] = [
     src: images.dlvtItaly,
     label: 'Italy',
   },
-  {
-    href: 'https://www.ipmanwingchun.sg/',
-    src: images.dlvtSelegie,
-    label: 'Selegie SG',
-  },
+  // {
+  //   href: 'https://www.ipmanwingchun.sg/',
+  //   src: images.dlvtSelegie,
+  //   label: 'Selegie SG',
+  // },
 ];
 
 export const footerLinks: FooterLink[] = [
