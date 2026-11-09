@@ -145,7 +145,8 @@ const ContactUs = () => {
                 Address
               </h2>
               <p className="text-gray-700">
-                Marymount - 39A Jalan Pemimpin 04-01C, Halcyon Building
+                262 Waterloo Street — 24/7 Groove Studio @ Waterloo Centre
+                #03-30A
               </p>
             </div>
             {/* Responsive Grid for Map and Placeholder */}

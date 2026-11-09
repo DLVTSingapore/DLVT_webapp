@@ -66,7 +66,7 @@ export const faqs: FAQ[] = [
   {
     question: 'Where is your academy located?',
     answer:
-      'Our academy is located in Marymount, Singapore. For the exact address, please reach out to us at dlvt2016sg@gmail.com.',
+      'Our academy is located in 262 Waterloo Street — 24/7 Groove Studio @ Waterloo Centre #03-30A. For the exact address, please reach out to us at dlvt2016sg@gmail.com.',
   },
   {
     question: 'What are the training session times?',
