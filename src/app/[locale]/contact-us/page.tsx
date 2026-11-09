@@ -154,7 +154,7 @@ const ContactUs = () => {
               {/* Map (First Column on Large, First Row on Small) */}
               <div className="relative aspect-square w-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d654.9764923053544!2d103.85122894126349!3d1.2987415119325698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da196b5f0745bd%3A0xfa77d40b17ca90c0!2sGrooveFitStudo%20%7C%20Pole%20Dance%20%7C%20Aerial%20Hoop%20%7C%20Stretch%20%7C%20Chair%2FHeels%20Dance%20%7C%20Pole%20Self-Practice%2024x7%20%7C%20Studio%20Rental%2024x7!5e0!3m2!1sen!2ssg!4v1794238273025!5m2!1sen!2ssg"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d890.312406326742!2d103.85201553551204!3d1.2987920772201427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bb4854bfe5%3A0xf661cdb10a88782c!2sWaterloo%20Centre!5e0!3m2!1sen!2ssg!4v1794239031255!5m2!1sen!2ssg"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
